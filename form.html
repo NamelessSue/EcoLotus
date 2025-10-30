@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Клиенты</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <i><a id="logo" href="index.html"><span class="pink">Eco</span> pulse</a></i>
+            <nav id="mainnav">
+              <ul>
+               <li class="active"><a href="uslugi.html">Услуги</a></li>
+               <li class="active"><a href="us.html">О нас</a></li>
+               <li class="active"><a href="client.html">Клиенты</a></li>
+               <li class="active"><a href="contact.html">Контакты</a><li>
+             </ul>
+           </nav>
+        </header>
+        <main>
+         <form id="contact-form">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+        <div class="form_item">
+                <label for="name">Имя</label><br>
+                <input name="name" id="name" type="text" placeholder="Ваше имя" required><br>
+                <label for="name1">E-mail</label><br>
+                <input name="name1" id="name1" type="email" placeholder="Ваш email" required><br>
+                <label for="name2">Телефон</label><br>
+                <input name="name2" id="name2" type="tel" placeholder="Ваш телефон" required><br>
+                <label for="name3">Дата</label><br>
+                <input name="name3" id="name3" type="date"><br>
+                <p>Текст сообщения</p>
+                <textarea rows="3" placeholder="Ваше сообщение"></textarea>
+            </div>
+            </div>
+            <div class="form_item">
+                <button>Отправить</button><br>
+            </div>
+         </form>
+        </main>
+        </div>
+    <footer>
+        <p class="footer_block"><a href="form.html">Написать нам</a> &#9650;</p>
+        <p class="footer_block">&copy; Новая компания</p> 
+        <div class="footer_icons">
+            <a target="_blank" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ok.ru/&ved=2ahUKEwjD_OLBtqiQAxXgFxAIHWICAYcQFnoECAoQAQ&usg=AOvVaw2uJbgnizcVySJHyciCcOP8"><img class="footer_img" src="img/ok.png" alt="ok" width="240"></a>
+            <a target="_blank" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://m.vk.com/&ved=2ahUKEwjhzdvItqiQAxVyFBAIHRpAAUsQFnoECAoQAQ&usg=AOvVaw1mJHCbxvab-i4syUU3ZD_s"><img class="footer_img" src="img/vk.png" alt="vk" width="240"></a>
+            <a target="_blank" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mail.ru/&ved=2ahUKEwjeiNnStqiQAxWRHxAIHaGPJ6YQFnoECCUQAQ&usg=AOvVaw0CFDT5ViN2oXpc18h0QmGG"><img class="footer_img" src="img/mailru.png" alt="mail" width="240"></a>
+        </div>
+    </footer>
+</body>
+</html>
